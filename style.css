@@ -1,0 +1,28 @@
+body {
+    background-size: cover;
+}
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.note {
+    font-size: 15px;
+    color: black;
+    white-space: pre-line;
+}
+.song_name,.play_button,.stop_button {
+    float: middle;
+    font-size: 25px;
+}
+#speed,#volume {
+    font-size: 23px;
+    margin: 15px;
+}
+canvas {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(70, 70, 70);
+    margin-top: 150px;
+}
